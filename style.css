@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    font-family: 'Karla';
+    font-weight: 400;
+    /* padding: 2rem; */
+}
+
+.p-l-2 {
+    padding-left: 2rem;
+}
+
+.title {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+.subtitle {
+    color: hsl(71, 73%, 54%);
+}
+
+h2.grey {
+    color: hsl(218, 22%, 67%);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.subscription {
+    background: hsl(179, 62%, 43%);
+    /* height: 450px; */
+    padding: 2rem;
+    color: #ffffff;
+}
+
+.subscription .main-subscription-title {
+    font-size: 200%;
+}
+
+.subscription .on-row .highlight-dollar {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 250%;
+}
+
+.subscription .on-row .monthly {
+    margin-left: 1rem;
+    color: hsl(204, 43%, 93%);
+    font-size: 90%;
+}
+
+.subscription .sub-text {
+    font-size: 200%;
+}
+
+.subscription .on-row .flex-item {
+    flex-direction: row;
+    justify-content: start;
+}
+
+.why-us {
+    background: hsl(179, 62%, 43%, 0.8);
+    padding: 2rem;
+    color: #ffffff;
+}
+
+.why-us .main-subscription-title {
+    font-size: 200%;
+}
+
+h1 .highlight-dollar {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+
+.on-row {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.inner-wrapper {
+    display: inline-block;
+}
+
+a.sign-up {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 150%;
+    color:#ffffff;
+    background:  hsl(71, 73%, 54%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.l-h {
+    line-height: 0.5rem;
+}
